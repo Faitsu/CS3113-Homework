@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
 	//setting up 
 
 	SDL_Init(SDL_INIT_VIDEO);
-	displayWindow = SDL_CreateWindow("Meow!", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_OPENGL);
+	displayWindow = SDL_CreateWindow("Hangry Kirby", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_OPENGL);
 	SDL_GLContext context = SDL_GL_CreateContext(displayWindow);
 	SDL_GL_MakeCurrent(displayWindow, context);
 
